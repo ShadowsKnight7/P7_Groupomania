@@ -4,7 +4,7 @@ const path = require('path');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Admin:jWnA0n2uoGJe2QdK@p7groupomania.btb4uov.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://GroupomaniaAdmin:test@p7groupomania.btb4uov.mongodb.net/?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
